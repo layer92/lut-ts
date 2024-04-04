@@ -1,0 +1,27 @@
+{
+  "name": "@layer92/lut-ts",
+  "version": "0.0.1",
+  "description": "LUT and .cube file utility library.",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "files": [
+    "compiled"
+  ],
+  "scripts": {},
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layer92/lut-ts.git"
+  },
+  "author": "layer92",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/layer92/lut-ts/issues"
+  },
+  "homepage": "https://github.com/layer92/lut-ts#readme",
+  "dependencies": {
+    "@layer92/core": "git+https://github.com/layer92/core-ts.git",
+    "@types/node": "20.8.6",
+    "typescript": "5.2.2"
+  }
+}
